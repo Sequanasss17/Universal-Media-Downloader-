@@ -18,13 +18,12 @@ A small FastAPI + Vite React TypeScript application that downloads media from In
 1. Clone the repository
 
 ```powershell
-git clone https://github.com/ARCOX04-GH/Instagram_And_Universal_Downloadings.git
+git clone https://github.com/Cheekurthi-Vamsi/Universal-Media-Downloader-.git
 ```
 
 2. Backend setup
 
 ```powershell
-python -m venv .venv ; .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 # optionally create a .env file in repo root to set API_KEY and other env vars
 ```
