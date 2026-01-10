@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-dotenv
+yt-dlp
+instaloader
+spotdl
+
+# Additional recommended packages
+# Used by the FastAPI backend and helper scripts
+pydantic
+requests
+aiofiles
+python-multipart
+httpx
+typing_extensions

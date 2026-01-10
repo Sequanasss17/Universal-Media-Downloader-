@@ -1,0 +1,10 @@
+# To Run or Start the Backend
+C:\Users\vamsi\Desktop\P1
+>> uvicorn downloads.main:app --reload --reload-dir downloads --host 127.0.0.1 --port 8000
+
+# To Run or start the Frontend
+C:\Users\vamsi\Desktop\P1
+>> npm install
+>> npm run dev 
+
+
